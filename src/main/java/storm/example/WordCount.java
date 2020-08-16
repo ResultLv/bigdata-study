@@ -1,4 +1,4 @@
-package example;
+package storm.example;
 
 import org.apache.storm.Config;
 import org.apache.storm.Constants;

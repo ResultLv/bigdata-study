@@ -1,4 +1,4 @@
-package wordCount.spouts;
+package storm.wordCount.spouts;
 
 import org.apache.storm.spout.SpoutOutputCollector;
 import org.apache.storm.task.TopologyContext;

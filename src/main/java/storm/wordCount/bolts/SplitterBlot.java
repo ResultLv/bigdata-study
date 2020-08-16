@@ -1,4 +1,4 @@
-package wordCount.bolts;
+package storm.wordCount.bolts;
 
 import org.apache.storm.shade.org.apache.commons.lang.StringUtils;
 import org.apache.storm.topology.BasicOutputCollector;

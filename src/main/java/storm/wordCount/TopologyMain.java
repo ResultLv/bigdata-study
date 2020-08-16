@@ -1,12 +1,12 @@
-package wordCount;
+package storm.wordCount;
 
 import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;
 import org.apache.storm.topology.TopologyBuilder;
 import org.apache.storm.tuple.Fields;
-import wordCount.bolts.CountBlot;
-import wordCount.bolts.SplitterBlot;
-import wordCount.spouts.WordReader;
+import storm.wordCount.bolts.CountBlot;
+import storm.wordCount.bolts.SplitterBlot;
+import storm.wordCount.spouts.WordReader;
 
 public class TopologyMain {
 

@@ -1,4 +1,4 @@
-package example;
+package storm.example;
 
 import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;
@@ -6,7 +6,7 @@ import org.apache.storm.StormSubmitter;
 import org.apache.storm.topology.TopologyBuilder;
 import org.apache.storm.tuple.Fields;
 
-//import com.microsoft.example.RandomSentenceSpout;
+//import com.microsoft.storm.example.RandomSentenceSpout;
 
 public class WordCountTopology {
 

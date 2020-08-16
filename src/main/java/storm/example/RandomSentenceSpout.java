@@ -1,4 +1,4 @@
-package example;
+package storm.example;
 
 import org.apache.storm.spout.SpoutOutputCollector;
 import org.apache.storm.task.TopologyContext;
@@ -39,12 +39,12 @@ public class RandomSentenceSpout extends BaseRichSpout {
         _collector.emit(new Values(sentence));
     }
 
-    //Ack is not implemented since this is a basic example
+    //Ack is not implemented since this is a basic storm.example
     @Override
     public void ack(Object id) {
     }
 
-    //Fail is not implemented since this is a basic example
+    //Fail is not implemented since this is a basic storm.example
     @Override
     public void fail(Object id) {
     }
